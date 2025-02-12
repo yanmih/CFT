@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CFTTest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CFTTest_jar</output-path>
+    <root id="archive" name="CFTTest.jar">
+      <element id="module-output" name="CFTTest" />
+    </root>
+  </artifact>
+</component>
