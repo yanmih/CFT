@@ -113,7 +113,10 @@ public class Main {
 //                System.out.println("Current directory " + System.getProperty("user.dir"));
                 readers.add(new BufferedReader(new FileReader(fP)));
             }
-
+            if (readers.size() == 0){
+                System.out.printf("В параметрах не указаны входные файлы ! -  *.txt ");
+                return;
+            }
             boolean moreLines = true;
             while (moreLines) {
                 moreLines = false;
